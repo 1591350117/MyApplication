@@ -12,7 +12,7 @@
        >
     <!--
     要使用  android:checked属性，必须要定义控件的id
-
+<hello>
     -->
        <RadioButton
            android:layout_width="wrap_content"

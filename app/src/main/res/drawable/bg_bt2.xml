@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle"
+    >
+    <!--
+    android:shape="rectangle"   矩形
+    solod 填充
+    corner 圆角
+    -->
+    <solid
+        android:color="#DD6D22"
+        />
+        <corners
+            android:radius="30dp"
+            />
+</shape>

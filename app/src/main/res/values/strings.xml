@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">游戏交流论坛</string>
+    <string name="tx_1">学渣在学java</string>
+    <string name="tx_2">我在学android,我在学android,我在学android,我在学android</string>
+    <string name="tx_3">hello world</string>
+    <string name="tx_4">下拉列表</string>
+    <string name="tx_5">我在学android，我在学android，我在学android，我在学android，我在学android，我在学android，我在学android</string>
+</resources>

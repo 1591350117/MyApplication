@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.myapplication">
 
+    <uses-permission android:name="android.permission.INTERNET" />
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,7 +10,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@android:style/Theme.Light.NoTitleBar">
-        <activity android:name=".RadioButtonActivity"></activity>
+        <activity android:name=".gridview.GridViewActivity"></activity>
+        <activity android:name=".listview.ListViewActivity"></activity>
+        <activity android:name=".ImageActivity"></activity>
+        <activity android:name=".CheckBoxActivity" />
+        <activity android:name=".RadioButtonActivity" />
         <activity android:name=".editeActivity" />
         <activity android:name=".buttonActivity" />
         <activity android:name=".TextActivity" />

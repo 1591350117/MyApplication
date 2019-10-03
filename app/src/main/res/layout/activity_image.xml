@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <!--
+    scaleType的常用属性
+    fixXY:撑满整个容器（会对图片进行拉伸）
+    fincenter:保持宽高比缩放，直至能够完全显示
+    centerCrop：保持宽高比缩放，直至完全覆盖控件，裁剪显示
+    -->
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="#FFC107"
+    android:src="@drawable/image1"
+    android:scaleType="fitXY"
+    android:id="@+id/ig1"
+    />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#FFEB3B"
+        android:id="@+id/net_Img"
+        android:layout_below="@+id/ig1"
+        android:layout_marginTop="15dp"
+        android:scaleType="centerCrop"
+        />
+</RelativeLayout>

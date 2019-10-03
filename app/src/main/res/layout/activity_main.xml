@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="20dp"
-    tools:context=".MainActivity">
+    >
 
 
     <!--
-
+          ScrollView:子元素只能由一个
         <LinearLayout
         android:layout_width="200dp"
         android:layout_height="200dp"
@@ -50,47 +48,137 @@
 
     -->
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:layout_marginTop="30dp"
-        android:text="跳转到textView"
-        android:textSize="30sp"
-        android:background="#ffa"
-        android:id="@+id/txbu"
-        android:textAllCaps="false"
-        />
-    <!--
-    把 android:textAllCaps="false" 设置为false，否则出现的字母都为大写（默认为true）
-    -->
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:layout_marginTop="20dp"
-        android:text="跳转到BUTTONVIEW"
-        android:id="@+id/main_bu"
-        android:textSize="30sp"
-        android:background="@color/colorAccent"
-        android:textAllCaps="false"
-        />
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:layout_marginTop="15dp"
-        android:text="跳转到Edite界面"
-        android:textSize="30dp"
-        android:background="#D4FFB6"
-        android:id="@+id/editeBu"
-        />
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:id="@+id/btn_ra"
-        android:layout_marginTop="10dp"
-        android:text="跳转到RadioButton界面"
-        android:textAllCaps="false"
-        android:textSize="25dp"
-        android:textColor="#fff"
-        android:background="#03A9F4"
-        />
-</LinearLayout>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       >
+       <Button
+           android:layout_width="match_parent"
+           android:layout_height="40dp"
+           android:layout_marginTop="10dp"
+           android:text="跳转到textView"
+           android:textSize="30sp"
+           android:background="#ffa"
+           android:id="@+id/txbu"
+           android:textAllCaps="false"
+           />
+       <!--
+       把 android:textAllCaps="false" 设置为false，否则出现的字母都为大写（默认为true）
+       -->
+       <Button
+           android:layout_width="match_parent"
+           android:layout_height="40dp"
+           android:layout_marginTop="10dp"
+           android:text="跳转到BUTTONVIEW"
+           android:id="@+id/main_bu"
+           android:textSize="30sp"
+           android:background="@color/colorAccent"
+           android:textAllCaps="false"
+           />
+       <Button
+           android:layout_width="match_parent"
+           android:layout_height="40dp"
+           android:layout_marginTop="10dp"
+           android:text="跳转到Edite界面"
+           android:textSize="30dp"
+           android:background="#D4FFB6"
+           android:id="@+id/editeBu"
+           />
+       <Button
+           android:layout_width="match_parent"
+           android:layout_height="40dp"
+           android:id="@+id/btn_ra"
+           android:layout_marginTop="10dp"
+           android:text="跳转到RadioButton界面"
+           android:textAllCaps="false"
+           android:textSize="25dp"
+           android:textColor="#fff"
+           android:background="#03A9F4"
+           />
+       <Button
+           android:layout_width="match_parent"
+           android:layout_height="40dp"
+           android:layout_marginTop="10dp"
+           android:text="CheckBox"
+           android:textSize="30sp"
+           android:textAllCaps="false"
+           android:background="#6605051D"
+           android:textColor="#fff"
+           android:id="@+id/btn_ck"
+           />
+       <Button
+           android:layout_width="match_parent"
+           android:layout_height="40dp"
+           android:id="@+id/btn_img"
+           android:layout_marginTop="10dp"
+           android:text="Image演示"
+           android:textAllCaps="false"
+           android:textSize="25dp"
+           android:textColor="#fff"
+           android:background="#03A9F4"
+           />
+       <Button
+           android:layout_width="match_parent"
+           android:layout_height="40dp"
+           android:layout_marginTop="10dp"
+           android:text="ListView"
+           android:textSize="30sp"
+           android:textAllCaps="false"
+           android:background="#6605051D"
+           android:textColor="#fff"
+           android:id="@+id/btn_list"
+           />
+       <Button
+           android:layout_width="match_parent"
+           android:layout_height="50dp"
+           android:text="gridView(网格布局)"
+           android:layout_marginTop="10dp"
+           android:textSize="20sp"
+           android:textAllCaps="false"
+           android:id="@+id/btn_grid"
+           />
+       <Button
+           android:layout_width="match_parent"
+           android:layout_height="60dp"
+           android:text="text"
+           android:textSize="30sp"
+           android:layout_marginBottom="10dp"
+           android:layout_marginTop="350dp"
+           />
+       <HorizontalScrollView
+           android:layout_width="300dp"
+           android:layout_height="80dp">
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="80dp"
+               android:orientation="horizontal"
+               >
+               <Button
+                   android:layout_width="300dp"
+                   android:layout_height="match_parent"
+                   android:text="text"
+                   android:textSize="30sp"
+                   />
+               <Button
+                   android:layout_width="300dp"
+                   android:layout_height="match_parent"
+                   android:text="text"
+                   android:textSize="30sp"
+                   />
+               <Button
+                   android:layout_width="300dp"
+                   android:layout_height="match_parent"
+                   android:text="text"
+                   android:textSize="30sp"
+                   />
+               <Button
+                   android:layout_width="300dp"
+                   android:layout_height="match_parent"
+                   android:text="text"
+                   android:textSize="30sp"
+                   />
+           </LinearLayout>
+       </HorizontalScrollView>
+   </LinearLayout>
+</ScrollView>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:padding="15dp"
+    android:layout_height="match_parent">
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@color/colorBlue"
+    android:textColor="#fff"
+    android:text="LinearRecycleView"
+    android:textSize="30sp"
+    android:id="@+id/licy1"
+    />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/listBt"
+        android:text="List"
+        android:textSize="30sp"
+        android:layout_marginTop="10dp"
+        />
+</LinearLayout>

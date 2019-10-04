@@ -10,20 +10,24 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@android:style/Theme.Light.NoTitleBar">
-        <activity android:name=".gridview.GridViewActivity"></activity>
-        <activity android:name=".listview.ListViewActivity"></activity>
-        <activity android:name=".ImageActivity"></activity>
-        <activity android:name=".CheckBoxActivity" />
-        <activity android:name=".RadioButtonActivity" />
-        <activity android:name=".editeActivity" />
-        <activity android:name=".buttonActivity" />
-        <activity android:name=".TextActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".recycleview.LinearRecycleViewActivity"></activity>
+        <activity android:name=".recycleview.RecycleViewActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".gridview.GridViewActivity"></activity>
+        <activity android:name=".listview.ListViewActivity"></activity>
+        <activity android:name=".ImageActivity"></activity>
+        <activity android:name=".CheckBoxActivity" />
+        <activity android:name=".RadioButtonActivity" />
+        <activity android:name=".listview.MyListViewActivity"></activity>
+        <activity android:name=".editeActivity" />
+        <activity android:name=".buttonActivity" />
+        <activity android:name=".TextActivity" />
+        <activity android:name=".MainActivity">
         </activity>
     </application>
 
